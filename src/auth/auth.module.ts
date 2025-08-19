@@ -12,7 +12,7 @@ import { LocalStrategy } from './local.strategy';
     UsersModule,
     PassportModule,
     JwtModule.register({
-      secret: 'SUPER_SECRET_KEY',
+      secret: 'SECRET_KEY',
       signOptions: { expiresIn: '1d' },
     }),
   ],
